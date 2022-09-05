@@ -1,0 +1,38 @@
+* {
+  &:before,
+  :after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+}
+
+.navbar-custom {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.custom-arrow {
+  color: #898080;
+  vertical-align: center;
+}
+
+@media only screen and (max-width: 540px) {
+}
+
+@media only screen and (max-width: 447px) {
+}
+
+@media only screen and (max-width: 280px) {
+}
+
+@media only screen and (max-width: 990px) {
+}
+
+@media only screen and (min-width: 991px) {
+}
+
+@media (max-width: 1024px) {
+}

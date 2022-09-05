@@ -1,0 +1,168 @@
+.main-container-user {
+  display: none;
+  height: 100vh;
+  position: fixed;
+  background-color: white;
+  top: 0px;
+  right: 0px;
+  z-index: 99999;
+  // width:fit-content;
+  & > .top-bar-style {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+
+    & > h3 {
+      font-size: x-large;
+    }
+
+    & > .close-btn {
+      font-size: x-large;
+      cursor: pointer;
+    }
+  }
+
+  & > .user-form-style {
+    background-color: white;
+    padding: 1rem;
+  }
+}
+
+.user-custom-btn {
+  font-size: 1.8rem;
+  height: auto;
+  margin-left: auto;
+  cursor: pointer;
+  color: dimgrey;
+  &:hover {
+    transition: color 0.2s 100ms ease-in;
+    color: rgb(163, 163, 163);
+  }
+}
+
+.display-adduser-form {
+  display: block;
+}
+
+.hidden-adduser-form {
+  display: hidden;
+}
+
+.blur-effect-add {
+  background-color: rgba(0, 0, 0, 0.576);
+  z-index: 999;
+  width: 100vw;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  // transition: all 10s 150ms ease-in;
+}
+
+.blur-effect-remove {
+  background-color: transparent;
+}
+
+.button-submit-custom {
+  border-radius: 40px;
+  margin-top: 1.5rem;
+  width: 18rem;
+  color: white;
+  background-color: #1d9e73;
+
+  &:hover {
+    background-color: #21a083;
+    transition: color 0.25s ease, background-color 0.25s ease,
+      border-color 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
+  }
+}
+
+.login-with-custom {
+  text-align: center;
+  display: inline;
+  font-weight: 500;
+}
+
+.horizontal-line {
+  background-color: #8080804a;
+  height: 0.1px;
+  width: 50px;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button-facebook-custom {
+  user-select: none;
+  border-radius: 40px;
+  margin-top: 1.5rem;
+  width: 18rem;
+  color: white;
+  background-color: #3b5998;
+
+  &:hover {
+    background-color: #405585;
+    transition: color 0.25s ease, background-color 0.25s ease,
+      border-color 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
+  }
+}
+
+.button-google-custom {
+  user-select: none;
+  border-radius: 40px;
+  margin-top: 1.5rem;
+  width: 18rem;
+  color: white;
+  background-color: #505152;
+  align-items: normal;
+
+  &:hover {
+    background-color: #454545;
+    transition: color 0.25s ease, background-color 0.25s ease,
+      border-color 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
+  }
+}
+
+.facebook-icon {
+  position: relative;
+  right: 8px;
+}
+
+.google-icon {
+  position: relative;
+  right: 16px;
+}
+
+.horizontal-rule {
+  background-color: #8080804a;
+  height: 0.1px;
+  width: 100%;
+  display: inline;
+  margin-top: 1rem;
+}
+.register-user-style {
+  font-size: -webkit-xxx-large;
+  color: lightgrey;
+  margin-top: 1rem;
+}
+
+.register-heading {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.create-account-style {
+  font-size: 14px;
+  color: #3e3e3e;
+  text-decoration: underline;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  &:hover {
+    color:grey;
+    transition: color 0.25s ease;
+  }
+}

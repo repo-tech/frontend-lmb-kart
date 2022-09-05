@@ -1,0 +1,13 @@
+.header-top {
+  background: floralwhite;
+}
+
+.scrolled-header {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  transition-property: all;
+  transition-duration: 9s;
+  transition-delay: 3s;
+  transition-timing-function: ease-in-out;
+}

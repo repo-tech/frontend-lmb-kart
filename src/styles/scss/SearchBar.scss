@@ -1,0 +1,22 @@
+.btn-pc{
+  padding-top: 0.5rem;
+}
+
+.search-input-custom {
+  border-radius: 40px;
+  width: 18rem;
+  color:black;
+  &:focus {
+    transition: all 0.5s ease-in;
+    border-color: lightgrey;
+    outline-color: lightgrey;
+    color:black;
+  }
+  
+  &:focus-visible {
+    border-color: lightgrey;
+    outline-color: lightgrey;
+    // color: lightgrey;
+    color:black;
+  }
+}
